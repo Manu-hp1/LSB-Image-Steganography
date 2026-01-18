@@ -37,12 +37,12 @@ This project was developed as part of the C Programming module in the Embedded S
 
 ## 🛠️ Technologies & Concepts Used
 
-***- C Programming***
-***- Bitwise Operations***
-***- Binary File Handling***
-***- File I/O (fopen, fread, fwrite, fseek)***
-***- Structures***
-***- Pointers and Memory Management***
+- ***C Programming***
+- ***Bitwise Operations***
+- ***Binary File Handling***
+- ***File I/O (fopen, fread, fwrite, fseek)***
+- ***Structures***
+- ***Pointers and Memory Management***
 
 ---
 
