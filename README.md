@@ -97,9 +97,9 @@ gcc *.c -o steganography
 ./steganography -d encoded.bmp output.txt
 ```
 ##### └──>Ex:
-   ```bash
-   ./steganography -d stego_imag.bmp output.txt
-   ```
+```bash
+     ./steganography -d stego_imag.bmp output.txt
+```
 
 ## Learning Outcome and Impact
 
