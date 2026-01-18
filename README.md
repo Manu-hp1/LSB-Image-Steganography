@@ -66,7 +66,11 @@ LSB-Steganography/
 ├── decode.c
 ├── decode.h
 ├── common.c
-└── types.h
+├── test_encode.c
+├── types.h
+├── beautiful.bmp
+├── secret.txt
+└── stego_imag.bmp
 ```
 
 ---
@@ -83,10 +87,20 @@ gcc *.c -o steganography
 ```bash
 ./steganography -e source.bmp secret.txt encoded.bmp
 ```
+##### └──>Ex:
+```bash
+./steganography -e beautiful.bmp secret.txt stego_imag.bmp
+```
+
 #### Decode(Extract Secret Data):
 ```bash
 ./steganography -d encoded.bmp output.txt
 ```
+##### └──>Ex:
+```bash
+./steganography -d stego_imag.bmp output.txt
+```
+
 ## Learning Outcome and Impact
 
 This project strengthened my understanding of **bitwise manipulation**, **binary file processing**, and **data encoding techniques**.
