@@ -16,8 +16,8 @@ This project was developed as part of the C Programming module in the Embedded S
 
 ## 🎯 Objective
 
-- To implement LSB-based image steganography using C  
-- To understand bit-level manipulation and binary image formats 
+- To implement **LSB-based image steganography** using **C**  
+- To understand **bit-level manipulation** and **binary image formats** 
 - To apply file handling concepts in a security-related application
 - To ensure secure data hiding without affecting image quality
 
@@ -48,17 +48,12 @@ This project was developed as part of the C Programming module in the Embedded S
 
 ## 🧠 How the Application Works
 
-**• Image files are processed in binary mode**
-
-**• Secret data is converted into individual bit**
-
-**• Each bit of secret data is embedded into the LSB of image bytes**
-
-**• Only the least significant bits are modified, preserving image quality**
-
-**• During decoding, LSBs are read back to reconstruct the original data**
-
-**• Encoding and decoding are handled using separate logical modules**
+• Image files are processed in binary mode
+• Secret data is converted into individual bit
+• Each bit of secret data is embedded into the LSB of image bytes
+• Only the least significant bits are modified, preserving image quality
+• During decoding, LSBs are read back to reconstruct the original data
+• Encoding and decoding are handled using separate logical modules
 
 ---
 
