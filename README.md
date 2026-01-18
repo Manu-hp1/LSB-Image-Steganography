@@ -1,4 +1,4 @@
-# 🖼️ LSB Image Steganography using C
+ # 🖼️ LSB Image Steganography using C
 
 A command-line based **Image Steganography** application developed in C, designed to hide and extract secret data inside images using the Least Significant Bit (LSB) technique.
 This project demonstrates strong fundamentals in C programming, bitwise operations, and binary file handling.
@@ -37,12 +37,12 @@ This project was developed as part of the C Programming module in the Embedded S
 
 ## 🛠️ Technologies & Concepts Used
 
-- C Programming
+**- C Programming
 - Bitwise Operations
 - Binary File Handling
 - File I/O (fopen, fread, fwrite, fseek)
 - Structures
-- Pointers and Memory Management
+- Pointers and Memory Management**
 ---
 
 ## 🧠 How the Application Works
