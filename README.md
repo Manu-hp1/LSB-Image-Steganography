@@ -101,7 +101,7 @@ I would like to sincerely thank **Anand Lokhande Sir** for his guidance and clea
 
 ## GitHub Repository
 
-[https://github.com/Manu-hp1/Address-Book]
+[https://github.com/Manu-hp1/LSB-Image-Steganography]
 
 ---
 
