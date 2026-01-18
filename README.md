@@ -61,31 +61,41 @@ This project was developed as part of the C Programming module in the Embedded S
 ```text
 LSB-Steganography/
 ├── encode.c
+├── encode.h
 ├── decode.c
+├── decode.h
 ├── common.c
-├── stego.h
-└──  types.h
+└── types.h
 ```
 
 ---
 
 ## ▶️ Compilation and Execution
 
-### Compile and run:
+### Compile:
 ```bash
-gcc *.c -o address_book
-./address_book
+gcc *.c -o steganography
 ```
 
+### Run:
+#### Encode(Hide Secret Data): 
+```bash
+./steganography -e source.bmp secret.txt encoded.bmp
+```
+#### Decode(Extract Secret Data):
+```bash
+./steganography -d encoded.bmp output.txt
+```
 ## Learning Outcome and Impact
 
-This project strengthened my understanding of core C programming concepts such as structures, pointers, and file handling. It improved my problem-solving approach, debugging skills, and ability to design clean, modular applications. Working on this project increased my confidence in translating theoretical knowledge into a practical, working solution.
+This project strengthened my understanding of **bitwise manipulation**, **binary file processing**, and **data encoding techniques**.
+It improved my problem-solving approach, debugging skills, and confidence in developing **low-level security-oriented applications** using **C**.
 
 ---
 
 ## Acknowledgment
 
-I would like to sincerely thank Anand Lokhande Sir for his guidance and clear explanation of C programming concepts, which helped me build this project with a strong logical foundation.
+I would like to sincerely thank **Anand Lokhande Sir** for his guidance and clear explanation of **C** programming concepts, which helped me build this project with a strong logical foundation.
 
 ---
 
@@ -97,7 +107,8 @@ I would like to sincerely thank Anand Lokhande Sir for his guidance and clear ex
 
 ## About Me
 
-I am an Embedded Systems Trainee at Emertxe Information Technologies, building strong fundamentals in C programming, Linux, and system-level concepts. I am passionate about writing clean code and continuously improving my technical skills.
+I am an Embedded Systems Trainee at **Emertxe Information Technologies**, building strong fundamentals in **C programming, Linux, and system-level concepts**.
+I am passionate about writing clean code and continuously improving my technical skills.
 
 ---
 
