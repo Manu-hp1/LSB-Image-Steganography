@@ -59,14 +59,12 @@ This project was developed as part of the C Programming module in the Embedded S
 ## 📂 Project Structure
 
 ```text
-AddressBook/
-├── main.c
-├── contact.c
-├── contact.h
-├── file.c
-├── file.h
-├── contacts.csv
-└── README.md
+LSB-Steganography/
+├── encode.c
+├── decode.c
+├── common.c
+├── stego.h
+└──  types.h
 ```
 
 ---
