@@ -48,12 +48,12 @@ This project was developed as part of the C Programming module in the Embedded S
 
 ## 🧠 How the Application Works
 
-- Contact details are stored using **structures**  
-- Data is written to and read from files to ensure persistence  
-- Each operation (add, search, edit, delete) is handled through separate logical modules  
-- Input validation is implemented to avoid invalid or duplicate entries  
-- The program follows a clean control flow for better readability  
-
+• Image files are processed in binary mode
+• Secret data is converted into individual bit
+• Each bit of secret data is embedded into the LSB of image bytes
+• Only the least significant bits are modified, preserving image quality
+• During decoding, LSBs are read back to reconstruct the original data
+• Encoding and decoding are handled using separate logical modules
 ---
 
 ## 📂 Project Structure
